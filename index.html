@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="openBook.display()">
+    <div id="background-over">
+        <form>
+            <h1>My Contacts</h1>
+            <input type="text" class="form-input" placeholder="Name" id="name">
+            <input type="text" class="form-input" placeholder="Email" id="email">
+            <input type="text" class="form-input" placeholder="Phone" id="phone">
+            <select id="relation" class="form-input" name="relation">
+              </select>
+            <button type="button" class="form-input" id="add-button" onclick="book.add();" ;>Add</button>
+        </form>
+
+        <section id="contacts-holder">
+
+        </section>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
